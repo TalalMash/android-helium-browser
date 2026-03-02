@@ -70,6 +70,8 @@ TOOLBAR_PHONE
 cat > out/Default/args.gn <<EOF
 chrome_public_manifest_package = "io.github.jqssun.helium"
 is_desktop_android = true
+is_high_end_android = false
+android_64bit_target_cpu = false
 target_os = "android"
 target_cpu = "arm"
 arm_version = 7
