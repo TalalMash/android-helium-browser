@@ -71,7 +71,12 @@ cat > out/Default/args.gn <<EOF
 chrome_public_manifest_package = "io.github.jqssun.helium"
 is_desktop_android = true
 target_os = "android"
-target_cpu = "arm64"
+target_cpu = "arm"
+arm_version = 7
+arm_arch = "armv7-a"
+arm_tune = "cortex-a15"
+arm_fpu = "neon"
+arm_float_abi = "hard"
 is_component_build = false
 is_debug = false
 is_official_build = true
